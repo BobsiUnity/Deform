@@ -19,7 +19,7 @@ namespace Deform
 		public float Curvature
 		{
 			get => curvature;
-			set => curvature = Mathf.Clamp01 (value);
+			set => curvature;
 		}
 		public float Top
 		{
