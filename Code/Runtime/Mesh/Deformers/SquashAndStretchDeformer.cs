@@ -16,11 +16,8 @@ namespace Deform
 			get => factor;
 			set => factor = value;
 		}
-		public float Curvature
-		{
-			get => curvature;
-			set => curvature;
-		}
+
+		public float Curvature => curvature;
 		public float Top
 		{
 			get => top;
